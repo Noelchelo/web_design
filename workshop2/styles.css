@@ -1,0 +1,16 @@
+.uno{
+  float: left;
+  width: 600px;
+  border-right: thin solid  #bfc9ca;
+}
+img.izquierda{
+  float: left;
+  width: 120px;
+  height: 120px;
+}
+img.derecha{
+  float: left;
+  width: 500px;
+  height: 350px;
+  margin: 5px;
+}
