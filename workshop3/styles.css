@@ -1,0 +1,51 @@
+.centro{
+  text-align: center;
+}
+body{
+  font-family: 'Handlee', cursive;
+  font-size: 13pt;
+  color: #20bcd5
+}
+h1 span{
+  border: 4px dashed #20bcd5;
+  padding: 10px;
+}
+table, th, td{
+  border: 2px solid #cecece;
+  border-collapse: collapse;
+  text-align:center;
+  table-layout: fixed;
+  margin:0 auto;
+}
+.tabla{
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+a{
+  text-decoration: none;
+}
+input, select{
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+button{
+  width: 30%;
+  background-color: green;
+  border: none;
+  color: White;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+div.formulario{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  text-align: center;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 class="centro" >Algunos Formularios</h1>
+    <div class="formulario">
+      <p>Input de tipo texto, todo se registrará como texto</p>
+      <form method="post">
+        <label for="fname">Nombre</label>
+        <input type="text" name="nombre" placeholder="Escriba su nombre">
+        <label for="lname">Apellidos</label>
+        <input type="text" name="apellido" placeholder="Escriba sus apellidos">
+      </form>
+    </div>
+  <br/>
+    <div class="formulario">
+      <p>Input de tipo contraseña, la contraseña no se podrá ver</p>
+      <form method="post">
+        <label for="pass">Contraseña</label>
+        <input type="password" name="pass" placeholder="Digite su contraseña">
+      </form>
+    </div>
+    <br/>
+    <div class="formulario">
+      <p>Los botones de radio permiten al usuario seleccionar UNA de un número
+        limitado de opciones</p>
+      <form method="post">
+        <input type="radio" name="genero" value="Hombre" checked> Hombre <br/>
+        <input type="radio" name="genero" value="Mujer"> Mujer <br/>
+        <input type="radio" name="genero" value="Otro"> Otro
+      </form>
+    </div>
+    <br/>
+    <div class="formulario">
+      <p>Un formulario con estilo de lista permite tener varias opciones</p>
+      <label for="country">Países</label>
+      <select name="country">
+        <option value="costa_rica">Costa Rica</option>
+        <option value="japon">Japón</option>
+        <option value="usa">USA</option>
+      </select>
+    </div>
+    <br/>
+    <div class="formulario">
+      <p>Un botón permite crear un evento al ser presionado</p>
+    <button type="button" onclick="location.href='index.html'">Menú Principal</button>
+    </div>
+  </body>
+</html>
