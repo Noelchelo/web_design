@@ -1,0 +1,38 @@
+table, th, td{
+  width: 100%;
+  border: 1px solid #000;
+  border-collapse: collapse;
+  text-align:center;
+  table-layout: fixed;
+}
+th{
+  color: White;
+  background-color: black;
+}
+.caja-centro{
+  display: block;
+  margin: auto;
+  width: 670px;
+  height: 160px;
+}
+.caja-titulo{
+  display: block;
+  margin: auto;
+  width: 670px;
+}
+.parrafo{
+  display: block;
+  margin: auto;
+  width: 670px;
+  height: 180px;
+}
+img.derecha{
+  position: sticky;
+  left: 100%;
+}
+span{
+  color: red;
+}
+tr.especial{
+  border: 3px solid #000;
+}
